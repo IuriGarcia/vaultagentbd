@@ -1,0 +1,13 @@
+Para testar em dev 
+
+$ vault server -dev
+pegue as keys geradas
+
+Unseal Key: x6CXV6Q49YcIPM1AmDKYaNPzrMv2EnHtbrmsCvTX8ec=
+Root Token: s.LfglqRBRvVIBQPq3JV7kD5wJ
+
+PAra conectar ao servidor (local) use
+
+$ export VAULT_DEV_ROOT_TOKEN_ID="s.LfglqRBRvVIBQPq3JV7kD5wJ"
+$ export VAULT_ADDR='http://127.0.0.1:8200'
+

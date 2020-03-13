@@ -1,0 +1,4 @@
+vault policy write db-policy ./policy/firstpolicy.hcl 
+
+Create token using policy
+https://learn.hashicorp.com/vault/developer/db-creds-rotation
